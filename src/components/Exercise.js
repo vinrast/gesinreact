@@ -12,8 +12,8 @@ class Exercise extends React.Component {
                 title={ exercise.title }
                 description={ exercise.description }
                 img={ exercise.img }
-                colorLeft={ exercise.leftColor }
-                colorRight={ exercise.rightColor}/>
+                ColorLeft={ exercise.leftColor }
+                ColorRight={ exercise.rightColor}/>
             )
           }
         )}

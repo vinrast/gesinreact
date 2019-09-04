@@ -4,11 +4,10 @@ import CircleImg from '../images/circles.png'
 
 class Card extends React.Component {
   render() {
-    console.log(this.props)
     return (
       <div className="card mx-auto Fitness-Card"
         style={{
-          backgroundImage:`url(${ CircleImg }), linear-gradient(to right, ${this.props.ColorLeft}, ${this.props.ColorRight})`
+          backgroundImage:`url(${ CircleImg }), linear-gradient(to right, ${this.props.ColorLeft}, ${this.props.ColorRight})` 
         }}>
         <div className="card-body">
           <div className="row center">
